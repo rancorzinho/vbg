@@ -44,7 +44,7 @@ class VBG(object):
             elif not args.passive:
                 wm = self.detectEnvironment()
                 if wm:
-                    payloads = glob.glob("payloads/{}_payload*".format(wm.split[0].lower()))
+                    payloads = glob.glob("payloads/{}_payload*".format(wm.split()[0].lower()))
                     if not payloads:
                         print("[E] No Suitable Payload Found.")
                         sys.exit(1)
