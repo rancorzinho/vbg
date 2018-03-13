@@ -1,5 +1,6 @@
 REM payload for i3wm
-ALT-F2
+WINDOWS-ENTER
+DELAY 0.5
 STRING xterm
 ENTER
 STRING echo w00t w00t

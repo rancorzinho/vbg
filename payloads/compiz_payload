@@ -2,6 +2,7 @@ REM payload for Unity
 ALT-F2
 STRING xterm
 ENTER
+DELAY 0.5
 STRING echo w00t w00t
 SHIFT-.
 STRING /tmp/output
