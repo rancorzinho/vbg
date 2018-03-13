@@ -1,0 +1,12 @@
+REM payload for Unity
+ALT-F2
+STRING xterm
+ENTER
+STRING echo w00t w00t
+SHIFT-.
+STRING /tmp/output
+ENTER
+STRING cat /tmp/output
+ENTER
+STRING exit
+ENTER
